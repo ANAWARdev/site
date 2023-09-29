@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-image: url('image/montagne\(1\).jpg') ;
+  background-repeat: no-repeat;
+    background-size: auto; 
+    display: flex;
+}
+
+svg {
+ width: 300px;
+ height:300px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 440px;
+  
+  
+}
+ 
+footer {
+  height: 100px;
+  width: 1200px;
+  background-color: gray;
+}
+
+    nav {
+        display: flex;/*pour bouger ce qui est à l'intérieur il faut mettre display: flex*/
+        justify-content: end;/*modifier la place de la liste avec cette propriété*/
+      
+      }
+      
+      .liste ol {
+        list-style-type: none;
+        padding-left: 0px;
+        
+      }
+      
+      .liste {
+        display: inline-block; 
+      }
+      
+      .liste a::after {
+        display: inline-block;
+        color: #000;
+        content: '>';
+        font-size: 80%;
+        font-weight: bold;
+        padding: 0 3px;
+      }
+
+ #container {background-image: url('image/montagne\(1\).jpg');
+          background-repeat: no-repeat;
+          background-size: 1000px 400px;
+      }
+      
